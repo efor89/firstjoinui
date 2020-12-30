@@ -1,8 +1,8 @@
 name: FirstJoinUI
-version: 1.1.0
+version: 1.1.2
 api: [3.0.0, 4.0.0]
 author: efor89
-main: firstjoinui\main
+main: firstjoinui\Main
 commands:
   fjoin:
     description: §bFirstJoinUI test open!
