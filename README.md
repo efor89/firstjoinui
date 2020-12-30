@@ -1,4 +1,4 @@
->>FirstJoinUI<<
+>>FirstJoinUI>>
 
 This Plugin open an UI at the first Join.
 
