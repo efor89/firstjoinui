@@ -1,11 +1,9 @@
 # FirstJoinUI
-
 This Plugin open an UI at the first Join.
 
 After you set the join-text and join-title reload or restart your server.
 
-> Special tags
-
+# Special tags
 {player} -> player name
 
 {online} -> online player
@@ -16,16 +14,14 @@ After you set the join-text and join-title reload or restart your server.
 
 {world} -> world name
 
-> Commanda
-
+# Commands
 /fjoin - description: open the UI for test view
 
 /jtext - description: set the UI text
 
 /jtitle - description: set the UI Title
 
-> Permissions
-
+# Permissions
 firstjoinui.command - lets you use all commands
 
 # Screenshots
