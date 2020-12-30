@@ -1,6 +1,7 @@
-This Plugin open an UI at the first Join!
+This Plugin open an UI at the first Join.
 
-After you set the jtext and jtitle reload your Server!
+After you set the jtext and jtitle reload your Server.
+
 
 {player} -> player name
 
@@ -11,6 +12,7 @@ After you set the jtext and jtitle reload your Server!
 {line} -> line break
 
 {world} -> world name
+
 
 commands:
 
