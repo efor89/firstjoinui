@@ -1,3 +1,5 @@
+>>FirstJoinUI<<
+
 This Plugin open an UI at the first Join.
 
 After you set the jtext and jtitle reload your Server.
