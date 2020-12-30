@@ -24,12 +24,12 @@ class Jtext extends Command {
 					$msg = implode(' ', $args);
 			        $config->set("text", $msg);
 					$config->save();	
-					$sender->sendMessage(main::prefix . "§aDu hast den Text gesetzt§f: §r" . $msg);
+					$sender->sendMessage(main::prefix . "§aYou set the text§f: §r" . $msg);
 			} else {
-                $sender->sendMessage(main::prefix . "§cDafür hast du keine Rechte!");
+                $sender->sendMessage(main::prefix . "§cNo Permmission!");
             }
         } else {
-            $sender->sendMessage(main::prefix . "§cBenutze denn befehl im Spiel!");
+            $sender->sendMessage(main::prefix . "§cUse Ingame!");
         }
         return true;
     }
