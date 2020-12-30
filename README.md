@@ -25,7 +25,11 @@ commands:
 
 /jtitle - description: set the UI Title
 
-permission: firstjoinui.command
+
+---------------
+permission: 
+
+firstjoinui.command
 
 
 
