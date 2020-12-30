@@ -2,6 +2,8 @@ This Plugin open an UI at the first Join.
 
 After you set the jtext and jtitle reload your Server.
 
+---------------
+You can use:
 
 {player} -> player name
 
@@ -14,6 +16,7 @@ After you set the jtext and jtitle reload your Server.
 {world} -> world name
 
 
+---------------
 commands:
 
 /fjoin - description: open the UI for test view
