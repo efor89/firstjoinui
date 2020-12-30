@@ -24,12 +24,12 @@ class Jtitle extends Command {
 					$msg = implode(' ', $args);
 			        $config->set("title", $msg);
 					$config->save();	
-					$sender->sendMessage(main::prefix . "§aDu hast den Title gesetzt§f: §r" . $msg);
+					$sender->sendMessage(main::prefix . "§aYou set the title§f: §r" . $msg);
 			} else {
-                $sender->sendMessage(main::prefix . "§cDafür hast du keine Rechte!");
+                $sender->sendMessage(main::prefix . "§cYou dont have the Permission!");
             }
         } else {
-            $sender->sendMessage(main::prefix . "§cBenutze denn befehl im Spiel!");
+            $sender->sendMessage(main::prefix . "§cUse Ingame!");
         }
         return true;
     }
