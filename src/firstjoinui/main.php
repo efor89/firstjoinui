@@ -54,10 +54,10 @@ class main extends PluginBase implements Listener {
 					if($sender->hasPermission("firstjoinui.command")){
                         $this->openMyForm($sender);
                     } else {
-						$sender->sendMessage("§cDafür hast du keine rechte!");
+						$sender->sendMessage("§cYou dont have the Permission!");
 					}
 				} else {
-					$sender->sendMessage("§cNutze den Befehl im Spiel!");
+					$sender->sendMessage("§cUse Ingame!");
 				}
                 break;
         }
