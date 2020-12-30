@@ -26,7 +26,7 @@ class Jtext extends Command {
 					$config->save();	
 					$sender->sendMessage(main::prefix . "§aYou set the text§f: §r" . $msg);
 			} else {
-                $sender->sendMessage(main::prefix . "§cNo Permmission!");
+                $sender->sendMessage(main::prefix . "§cYou dont have the Permission!");
             }
         } else {
             $sender->sendMessage(main::prefix . "§cUse Ingame!");
