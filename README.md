@@ -3,13 +3,13 @@ This Plugin open an UI at the first Join.
 
 After you set the join-text and join-title reload or restart your server.
 
-# cmd.yml
-You can set up to 10 ingame commands!
+# Config
+You can set up to 10 ingame commands in cmd.yml!
 
 cmd: startkit
 cmd1: ....
 
-You can set up to 10 console commands!
+You can set up to 10 console commands in cmd.yml!
 
 ccmd: give {player} 264 16
 ccmd1: .....
