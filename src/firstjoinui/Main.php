@@ -32,8 +32,10 @@ class Main extends PluginBase implements Listener {
 		@mkdir($this->getDataFolder());
 		$this->saveResource("messages.yml");
 		$this->saveResource("player.yml");
+		$this->saveResource("cmd.yml");
 		$this->messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
-		$this->player = new Config($this->getDataFolder() . "player.yml", Config::YAML);		
+		$this->player = new Config($this->getDataFolder() . "player.yml", Config::YAML);
+        $this->cmd = new Config($this->getDataFolder() . "cmd.yml", Config::YAML);		
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getCommandMap()->register("jtitle", new Jtitle($this));
 		$this->getServer()->getCommandMap()->register("jtext", new Jtext($this));
