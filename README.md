@@ -1,5 +1,5 @@
 # FirstJoinUI
-This Plugin open an UI at the first Join.
+This Plugin open an UI and can execute commands at the first Join.
 
 After you set the join-text and join-title reload or restart your server.
 
