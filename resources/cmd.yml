@@ -1,6 +1,6 @@
 ---
-cmd:
-cmd1:
+cmd: startkit
+cmd1: 
 cmd2:
 cmd3:
 cmd4:
@@ -9,8 +9,8 @@ cmd6:
 cmd7:
 cmd8:
 cmd9:
-ccmd:
-ccmd1:
+ccmd: say hi {player}
+ccmd1: give {player} 264 16
 ccmd2:
 ccmd3:
 ccmd4:
