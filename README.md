@@ -37,5 +37,11 @@ ccmd1: .....
 # Permissions
 firstjoinui.command - lets you use all commands
 
+# Required
+
+you need FormAPI to run the Plugin!
+
+https://github.com/jojoe77777/FormAPI/tree/master/
+
 # Screenshots
 ![Screenshot (26)](https://user-images.githubusercontent.com/67799203/103339571-fcf3ba00-4a81-11eb-9985-7a96faaa9f23.png)
