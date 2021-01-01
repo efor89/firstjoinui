@@ -1,4 +1,5 @@
 ---
+#ingame command
 cmd: startkit
 cmd1: 
 cmd2:
@@ -9,6 +10,8 @@ cmd6:
 cmd7:
 cmd8:
 cmd9:
+
+#console command
 ccmd: say hi {player}
 ccmd1: give {player} 264 16
 ccmd2:
