@@ -83,72 +83,52 @@ class uitask extends Task{
 			   }
 		if ($config->exists("ccmd")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd", "")));
 		}
 			   }
 		if ($config->exists("ccmd1")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd1", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd1", "")));
 		}
 			   }
 		if ($config->exists("ccmd2")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd2", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd2", "")));
 		}
 			   }
 		if ($config->exists("ccmd3")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd3", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd3", "")));
 		}
 			   }
 		if ($config->exists("ccmd4")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd4", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd4", "")));
 		}
 			   }
 		if ($config->exists("ccmd5")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd5", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd5", "")));
 		}
 			   }
 		if ($config->exists("ccmd6")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd6", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd6", "")));
 		}
 			   }
 		if ($config->exists("ccmd7")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd7", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd7", "")));
 		}
 			   }
 		if ($config->exists("ccmd8")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd8", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd8", "")));
 		}
 			   }
 		if ($config->exists("ccmd9")){
 			if(!$plconfig->exists($this->player->getName() . "join")){
-		    foreach($this->plugin->getServer()->getOnlinePlayers() as $player){
-                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$player->getName().'"', $config->get("ccmd9", "")));
-            }
+                $this->plugin->getServer()->getCommandMap()->dispatch(new ConsoleCommandSender(), str_replace("{player}", '"'.$this->player->getName().'"', $config->get("ccmd9", "")));
 		}
 			   }
 	    $plconfig->set($this->player->getName() . "join");
