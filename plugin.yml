@@ -6,6 +6,10 @@ main: firstjoinui\Main
 commands:
   fjoin:
     description: §bFirstJoinUI test open!
+  jtext:
+    description: §bset FirstJoinUI text!
+  jtitle:
+    description: §bset FirstJoinUI title!
 permissions:
   firstjoinui.command:
     default: op
